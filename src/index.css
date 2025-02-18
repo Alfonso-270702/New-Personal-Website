@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --: "Space Grotesk", "sans-serif";
+}
+
+p {
+  font-family: "Space Grotesk", "sans-serif";
+}
+
+a {
+  font-family: "Space Grotesk", "sans-serif";
+}
+
+a.active {
+  font-weight: 700;
+}

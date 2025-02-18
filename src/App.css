@@ -1,0 +1,8 @@
+#root {
+  background: linear-gradient(to top left, #0d76b9, #0f2533);
+  height: 100vh;
+}
+
+.sidebar-open {
+  background: linear-gradient(to top left, #0d76b9, #0f2533);
+}

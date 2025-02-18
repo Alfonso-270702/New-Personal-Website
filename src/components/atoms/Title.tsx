@@ -9,7 +9,7 @@ interface Title {
 const Title = ({ title, redirectURL, redirectText }: Title) => {
   return (
     <div className="flex items-center justify-between w-full h-[122px]">
-      <p className="text-[96px] font-bold">{title}</p>
+      <p className="text-[96px] text-white font-bold">{title}</p>
       <div className="flex items-center">
         <NavLink
           to={redirectURL}

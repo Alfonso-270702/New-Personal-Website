@@ -14,7 +14,7 @@ const ContactIcon = ({
   return (
     <div className={containerClass}>
       <img className={imageStyle} src={image} alt="github img" />
-      <p>{text}</p>
+      <p className="text-white">{text}</p>
     </div>
   );
 };

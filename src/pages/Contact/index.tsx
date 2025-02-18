@@ -15,12 +15,12 @@ const Contact = () => {
         profileName={profileData.name}
         description={profileData.desc}
         imgStyle="w-full h-[60%] object-cover"
-        profileDescStyle="text-[18px] text-justify"
-        profileNameStyle="text-[46px] font-bold"
+        profileDescStyle="text-[18px] text-justify text-white"
+        profileNameStyle="text-[46px] font-bold text-white"
       />
 
       <div className="w-[70%]">
-        <p className="text-[64px] font-bold">GET CONNECTED</p>
+        <p className="text-[64px] font-bold text-white">GET CONNECTED</p>
         {contactInfo.map((item, index) => (
           <ContactIcon
             text={contactData[item as keyof typeof contactData].text}

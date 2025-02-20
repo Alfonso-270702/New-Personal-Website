@@ -22,7 +22,7 @@ const Carousel = ({ isSidebarOpen }: CarouselProps) => {
         disableOnInteraction: false,
       }}
       slidesPerView="auto"
-      spaceBetween={20}
+      spaceBetween={64}
       className={`breakpoint transition-opacity duration-300 ${
         isSidebarOpen
           ? "pointer-events-none opacity-50"
